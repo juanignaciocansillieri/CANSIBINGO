@@ -1,0 +1,29 @@
+.bolasPasadas {
+    display: flex;
+    align-items: center;
+}
+
+.bolasPasadas img {
+    padding: 10px;
+    background-color: rgba(253, 255, 255, 0.637);
+    height: 90px;
+}
+
+.bolaAnterior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.bolaAnterior img {
+    padding: 5px;
+}
+
+.bolaAnterior h1 {
+    font-size: 2em;
+    position: absolute;
+    color: #000;
+}

@@ -1,0 +1,36 @@
+.panel_der {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.panelNum {
+    height: 90%;
+    width: 90%;
+    display: flex;
+    padding: 10px;
+    background-color: rgba(253, 255, 255, 0.637);
+    border-radius: 50px;
+}
+
+.filasNum {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.num {
+    text-align: center;
+    font-weight: bold;
+    font: 1.6em sans-serif;
+    color: rgb(243, 241, 239);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    border-radius: 200px;
+    width: 97px;
+    flex: 10%;
+}
